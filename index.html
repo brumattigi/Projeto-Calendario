@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css' rel='stylesheet' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.min.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calendar"></div>
+    <div id="event-details">
+        <h2>Adicione seu Compromisso</h2>
+        <p id="selected-date"></p>
+        <p id="holiday-name"></p>
+        <div id="commitments"></div>
+        <textarea id="event-description" placeholder="Escreva seu compromisso aqui..."></textarea>
+        <button id="save-event">Salvar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

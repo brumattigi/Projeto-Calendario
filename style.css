@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#calendar {
+    width: 60%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#event-details {
+    width: 30%;
+    max-width: 400px;
+    margin-left: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#event-details h2 {
+    margin-top: 0;
+}
+
+#event-description {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#save-event {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #c8a2c8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#save-event:hover {
+    background-color: #c8a2c8;
+}
+
+.fc-daygrid-day.fc-day-today {
+    background-color: #f3defa !important;
+}
+
+.fc-daygrid-day.selected {
+    background-color: #f3defa !important;
+}
+
+#event-description::placeholder {
+    font-family: Arial, sans-serif;
+}
+
+.fc .fc-button.fc-button-primary {
+    background-color: #D8BFD8 !important;
+    border-color: #D8BFD8 !important;
+}
+
+.fc .fc-button.fc-button-primary:hover {
+    background-color: #C8A2C8 !important;
+    border-color: #C8A2C8 !important;
+}
+
+.commitment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.commitment p {
+    margin: 0;
+}
+
+.commitment button {
+    background-color: #C8A2C8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.commitment button:hover {
+    background-color: #C8A2C8;
+}
